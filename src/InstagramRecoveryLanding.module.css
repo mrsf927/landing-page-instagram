@@ -1,47 +1,11 @@
-.pageWrapper {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  width: 100%;
-}
-
-.topBanner {
-  background-color: #1A202C;
-  color: #E2E8F0;
-  text-decoration: none;
-  padding: 0.75rem 1rem;
-  text-align: center;
-  font-size: 0.9rem;
-  font-weight: 500;
-  border-bottom: 1px solid #2D3748;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
-  transition: background-color 0.2s;
-}
-
-.topBanner:hover {
-  background-color: #2D3748;
-  color: #fff;
-}
-
-.arrow {
-  transition: transform 0.2s;
-}
-
-.topBanner:hover .arrow {
-  transform: translateX(4px);
-}
-
 .container {
-  flex: 1;
+  min-height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding: 2rem 1rem 4rem 1rem;
+  padding: 4rem 1rem;
   background-color: #0a0e17;
   /* Very dark blue/black */
   color: #f0f4f8;
@@ -163,20 +127,7 @@
 
 /* Specific Mobile Fixes */
 @media (max-width: 480px) {
-  .topBanner {
-    flex-direction: column;
-    padding: 0.5rem;
-    font-size: 0.8rem;
-  }
 
-  .arrow {
-    transform: rotate(90deg);
-    margin-top: 2px;
-  }
-
-  .topBanner:hover .arrow {
-    transform: rotate(90deg) translateY(2px);
-  }
 
   .hero {
     margin-bottom: 1.5rem;
