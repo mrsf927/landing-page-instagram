@@ -15,10 +15,13 @@ const InstagramRecoveryLanding: React.FC = () => {
         href="https://www.souzaeborgesadvogados.com.br/"
         target="_blank"
         rel="noopener noreferrer"
-        className={styles.topBanner}
+        className={styles.topBannerLink}
       >
-        Visite nosso site oficial: <strong>Souza e Borges Advogados</strong>
-        <span className={styles.arrow}>&rarr;</span>
+        <img
+          src="/banner-souza-borges.png"
+          alt="Souza e Borges Advogados"
+          className={styles.topBannerImage}
+        />
       </a>
 
       <main className={styles.container}>
