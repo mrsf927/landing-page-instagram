@@ -25,12 +25,11 @@ const InstagramRecoveryLanding: React.FC = () => {
       {/* VSL Section */}
       <section className={styles.vslContainer}>
         {/* @ts-ignore */}
-        <wistia-player media-id="8hb5xjczjk" aspect="0.5625"></wistia-player>
+        <wistia-player id="assistiu_vsl" media-id="8hb5xjczjk" aspect="0.5625"></wistia-player>
       </section>
 
       {/* CTA Section */}
       <button
-        id="assistiu_vsl"
         className={styles.ctaButton}
         onClick={handleCtaClick}
         data-conversao-unica="sb_click"
