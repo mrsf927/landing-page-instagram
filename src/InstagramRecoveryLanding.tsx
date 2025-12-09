@@ -30,6 +30,7 @@ const InstagramRecoveryLanding: React.FC = () => {
 
       {/* CTA Section */}
       <button
+        id="assistiu_vsl"
         className={styles.ctaButton}
         onClick={handleCtaClick}
         data-conversao-unica="sb_click"
