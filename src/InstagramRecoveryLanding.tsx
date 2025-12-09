@@ -3,9 +3,11 @@ import styles from './InstagramRecoveryLanding.module.css';
 
 const InstagramRecoveryLanding: React.FC = () => {
   const handleCtaClick = () => {
-    // Placeholder for future WhatsApp/Support link integration
-    console.log('CTA Clicked - Initiate Support Flow');
-    alert('Redirecionando para o atendimento...');
+    const phoneNumber = "5516995046471";
+    const message = "Olá, perdi o acesso ao meu Instagram e preciso de ajuda jurídica para recuperar.";
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+
+    window.open(whatsappUrl, '_blank');
   };
 
   return (
