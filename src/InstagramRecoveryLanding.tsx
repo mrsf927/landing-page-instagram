@@ -62,7 +62,11 @@ const InstagramRecoveryLanding: React.FC = () => {
         </section>
 
         {/* CTA Section */}
-        <button className={styles.ctaButton} onClick={handleCtaClick}>
+        <button
+          className={styles.ctaButton}
+          onClick={handleCtaClick}
+          data-conversao-unica="sb_click"
+        >
           Recuperar meu acesso agora
         </button>
       </main>
